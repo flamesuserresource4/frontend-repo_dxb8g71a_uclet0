@@ -3,16 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Flames App</title>
-    <link rel="icon" type="image/x-icon" href="favicon.svg">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700;800&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/geist@1.0.0/dist/fonts/geist-sans/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/geist@1.0.0/dist/fonts/geist-mono/style.css">
+    <title>SkyShine – Aircraft Detailing Marketplace</title>
+    <meta name="description" content="SkyShine connects private jet owners, FBOs, and flight departments with certified aircraft detailers. Get quotes, browse providers, and book premium aircraft detailing services." />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="SkyShine" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="SkyShine – Aircraft Detailing Marketplace" />
+    <meta property="og:description" content="Book certified aircraft detailers for exterior wash, interior deep clean, brightwork, disinfection, and more." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://skyshine.app" />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1535408911264-1f7b6751a1ee?q=80&w=1600&auto=format&fit=crop" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="SkyShine – Aircraft Detailing Marketplace" />
+    <meta name="twitter:description" content="Find certified aircraft detailers and book premium services with confidence." />
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1535408911264-1f7b6751a1ee?q=80&w=1600&auto=format&fit=crop" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/geist@1.0.0/dist/fonts/geist-sans/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/geist@1.0.0/dist/fonts/geist-mono/style.css" />
   </head>
   <body>
     <div id="root"></div>
+
+    <!-- JSON-LD: Organization/Service -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "SkyShine",
+        "url": "https://skyshine.app",
+        "logo": "https://images.unsplash.com/photo-1535408911264-1f7b6751a1ee?q=80&w=1200&auto=format&fit=crop",
+        "sameAs": [
+          "https://twitter.com/",
+          "https://www.linkedin.com/"
+        ],
+        "description": "Marketplace connecting aircraft owners and operators with certified aircraft detailers.",
+        "areaServed": "Worldwide",
+        "serviceType": "Aircraft Detailing Services"
+      }
+    </script>
+
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
